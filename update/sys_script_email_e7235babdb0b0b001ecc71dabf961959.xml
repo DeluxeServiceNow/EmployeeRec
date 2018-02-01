@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Employee Recognition</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript(current, template, email, email_action, event) {
+
+    template.print('<p><font size="3" color="000000" face="helvetica"<strong>');
+	template.print("Hi " + '${u_recipient},');
+	template.print('</strong></font></p>');
+	template.print('<p><font size="2" color="000000" face="helvetica">');
+	template.print("Thank you for all the hard work you have been doing lately. Your colleague, " + '${u_submitter}' + " wanted to give you recognition for your recent work and wrote this about you: " + '<br><br>');
+	template.print('${u_description} <br><br>');
+
+	// Getting an array of the values [true/false] of the check boxes for IT Pillars to check which to include in the email
+	var x = [current.u_integrate_optimize, current.u_run_protect_enable, current.u_commitment_quality, current.u_innovate_transform];
+	var newArr = [];
+	var count = 0;
+	var onlyOne; // used to reference the only check box checked if the user only checked one // 
+	// counting how many check boxes were checked off. 
+	// This will be used to make the email more grammatically correct based on how many answers they selected
+	for(var j = 0; j < x.length; j++)
+	{
+		if(x[j])
+		{
+			newArr[count] = x[j];
+			count++;
+			onlyOne = j;	
+		}
+	}
+	
+	// Do not print anything if the user did not select any check boxes
+	if(count > 0)
+		template.print('${u_submitter}' + " also believes you exemplify the ");
+	// print only one Pillar if they only chose one. 
+	if(count == 1)
+	{
+		template.print("\"" + x[onlyOne].getLabel() +"\" ");
+		template.print("Deluxe IT Strategy Pillar." + '<br><br>');	
+	}	
+	// if there is more than one, cycle through them all and only print out the true values
+	else if(count > 1)
+	{		
+		for(var i = 0; i < newArr.length; i++)
+		{	
+				if(i == count-1)
+					template.print("and \"" + newArr[i].getLabel()+ "\" ");
+				else if(i == count - 2)
+					template.print("\"" + newArr[i].getLabel() + "\" ");
+				else if(i < count-1)
+					template.print("\"" + newArr[i].getLabel() +"\"; ");									
+		}
+			template.print("Deluxe IT Strategy Pillars." + '<br><br>');
+	}
+	// only print a thank you if there is one	
+	if(current.u_thank_you != '')
+	{
+		template.print('${u_thank_you} <br><br>');
+	}
+	// only print the quarterly announcement if that check box is checked. 
+	if(current.u_quarterly_rec)
+	{
+		template.print("Because of how great of a job you have been doing, you may be recognized at the next IT All Hands Quarterly Meeting and will win a prize! Great job!" + '<br><br>');
+	}
+	
+	template.print("Keep up the good work!" + '<br><br>');
+	template.print("View this recognition in ServiceNow: " + '${URI}');
+	
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>t448202</sys_created_by>
+        <sys_created_on>2017-12-21 17:44:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>e7235babdb0b0b001ecc71dabf961959</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_name>Employee Recognition</sys_name>
+        <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
+        <sys_update_name>sys_script_email_e7235babdb0b0b001ecc71dabf961959</sys_update_name>
+        <sys_updated_by>t448202</sys_updated_by>
+        <sys_updated_on>2018-01-17 19:14:42</sys_updated_on>
+    </sys_script_email>
+</record_update>

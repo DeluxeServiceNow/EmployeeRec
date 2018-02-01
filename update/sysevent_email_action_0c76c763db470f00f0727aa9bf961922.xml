@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Employee Recognition" name="Employee Recognition">ad660fa3db470f00f0727aa9bf9619a2</category>
+        <collection>x_delr2_employee_r_employee_recognition</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_delr2_employee_r.recipient_notify</event_name>
+        <event_parm_1>true</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p><img style="align: middle;" src="sys_attachment.do?sys_id=1dfcaf2fdb4b0b001ecc71dabf9619cf" width="749" height="276" align="middle" />${mail_script:Employee Recognition}</p>
+<p><img style="align: middle;" src="sys_attachment.do?sys_id=2d8deb6fdb4b0b001ecc71dabf961961" width="739" height="29" align="middle" /></p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Employee Recognition- Recipient</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields/>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Congratulations! You've been recognized by ${u_submitter} for your hard work!</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>t444366</sys_created_by>
+        <sys_created_on>2017-12-21 16:48:25</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c76c763db470f00f0727aa9bf961922</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Employee Recognition- Recipient</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
+        <sys_update_name>sysevent_email_action_0c76c763db470f00f0727aa9bf961922</sys_update_name>
+        <sys_updated_by>t448202</sys_updated_by>
+        <sys_updated_on>2017-12-21 19:44:16</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

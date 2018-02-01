@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Employee Recognition">8013cd0fdbcf87001ecc71dabf96195f</application>
+        <filter/>
+        <name>Employee Recognition</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_delr2_employee_r.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>t444366</sys_created_by>
+        <sys_created_on>2017-12-19 17:56:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4013cd0fdbcf87001ecc71dabf961961</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee Recognition</sys_name>
+        <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
+        <sys_update_name>sys_ui_module_4013cd0fdbcf87001ecc71dabf961961</sys_update_name>
+        <sys_updated_by>t444366</sys_updated_by>
+        <sys_updated_on>2017-12-19 17:56:58</sys_updated_on>
+        <table>x_delr2_employee_r_employee_recognition</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

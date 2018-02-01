@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" table="x_delr2_employee_r_employee_recognition" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_delr2_employee_r_employee_recognition" element="NULL" name="x_delr2_employee_r_employee_recognition" parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" view="Default view">7f25cadcdb778708f0727aa9bf961979</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_id>bb25cadcdb778708f0727aa9bf96197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_delr2_employee_r_employee_recognition" element="NULL" name="x_delr2_employee_r_employee_recognition" parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" view="Default view">7f25cadcdb778708f0727aa9bf961979</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_id>7325cadcdb778708f0727aa9bf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_recipient</element>
+            <list_id display_value="x_delr2_employee_r_employee_recognition" element="NULL" name="x_delr2_employee_r_employee_recognition" parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" view="Default view">7f25cadcdb778708f0727aa9bf961979</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_id>f325cadcdb778708f0727aa9bf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_description</element>
+            <list_id display_value="x_delr2_employee_r_employee_recognition" element="NULL" name="x_delr2_employee_r_employee_recognition" parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" view="Default view">7f25cadcdb778708f0727aa9bf961979</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_id>7725cadcdb778708f0727aa9bf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>received_recognition_award</element>
+            <list_id display_value="x_delr2_employee_r_employee_recognition" element="NULL" name="x_delr2_employee_r_employee_recognition" parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" view="Default view">7f25cadcdb778708f0727aa9bf961979</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_id>f725cadcdb778708f0727aa9bf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>recognition_award</element>
+            <list_id display_value="x_delr2_employee_r_employee_recognition" element="NULL" name="x_delr2_employee_r_employee_recognition" parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" view="Default view">7f25cadcdb778708f0727aa9bf961979</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_id>7b25cadcdb778708f0727aa9bf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>received_quarterly_recognition_award</element>
+            <list_id display_value="x_delr2_employee_r_employee_recognition" element="NULL" name="x_delr2_employee_r_employee_recognition" parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" view="Default view">7f25cadcdb778708f0727aa9bf961979</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_id>fb25cadcdb778708f0727aa9bf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>awarded_quarterly_recognition_award</element>
+            <list_id display_value="x_delr2_employee_r_employee_recognition" element="NULL" name="x_delr2_employee_r_employee_recognition" parent="x_delr2_employee_r_employee_recognition" relationship="8f7ca47bdbe7c3001ecc71dabf961919" sys_domain="global" view="Default view">7f25cadcdb778708f0727aa9bf961979</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_id>7f25cadcdb778708f0727aa9bf96197b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_delr2_employee_r_employee_recognition</name>
+            <parent>x_delr2_employee_r_employee_recognition</parent>
+            <position/>
+            <relationship display_value="ERECs for same Recipient">8f7ca47bdbe7c3001ecc71dabf961919</relationship>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:29:41</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7f25cadcdb778708f0727aa9bf961979</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_delr2_employee_r_employee_recognition</sys_name>
+            <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
+            <sys_update_name>sys_ui_list_x_delr2_employee_r_employee_recognition_8f7ca47bdbe7c3001ecc71dabf961919_null</sys_update_name>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:29:41</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

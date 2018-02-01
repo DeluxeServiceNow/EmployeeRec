@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <hint/>
+        <name>Employee Recognition</name>
+        <order/>
+        <roles>x_delr2_employee_r.user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>t444366</sys_created_by>
+        <sys_created_on>2017-12-19 17:56:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8013cd0fdbcf87001ecc71dabf96195f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Employee Recognition</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
+        <sys_update_name>sys_ui_application_8013cd0fdbcf87001ecc71dabf96195f</sys_update_name>
+        <sys_updated_by>t444366</sys_updated_by>
+        <sys_updated_on>2018-01-10 03:53:54</sys_updated_on>
+    </sys_ui_application>
+</record_update>

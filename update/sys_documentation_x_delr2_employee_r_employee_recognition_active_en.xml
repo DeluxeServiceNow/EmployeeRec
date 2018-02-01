@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="active" label="Active" language="en" table="x_delr2_employee_r_employee_recognition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <help/>
+            <hint/>
+            <label>Active</label>
+            <language>en</language>
+            <name>x_delr2_employee_r_employee_recognition</name>
+            <plural>Active</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>t444366</sys_created_by>
+            <sys_created_on>2018-01-17 16:32:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>10f5061cdbb78708f0727aa9bf96190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Active</sys_name>
+            <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
+            <sys_update_name>sys_documentation_x_delr2_employee_r_employee_recognition_active_en</sys_update_name>
+            <sys_updated_by>t444366</sys_updated_by>
+            <sys_updated_on>2018-01-17 16:32:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
