@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="quarterly_award_date" label="Quarterly Award Date" language="en" table="x_delr2_employee_r_employee_recognition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>quarterly_award_date</element>
+            <help/>
+            <hint/>
+            <label>Quarterly Award Date</label>
+            <language>en</language>
+            <name>x_delr2_employee_r_employee_recognition</name>
+            <plural>Quarterly Award Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>t448202</sys_created_by>
+            <sys_created_on>2018-02-19 21:00:57</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e3bff08fdb549f08f0727aa9bf961960</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Quarterly Award Date</sys_name>
+            <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
+            <sys_update_name>sys_documentation_x_delr2_employee_r_employee_recognition_quarterly_award_date_en</sys_update_name>
+            <sys_updated_by>t448202</sys_updated_by>
+            <sys_updated_on>2018-02-19 21:00:57</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

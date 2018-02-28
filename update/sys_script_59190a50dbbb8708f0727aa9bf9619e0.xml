@@ -37,10 +37,11 @@
 	// will say that user has never received an award if they received one from that record.
 	//gr.addQuery('sys_id', '!=', current.sys_id);
 	gr.addQuery('received_quarterly_recognition_award', true);
+	gr.addQuery('active', true);
 	var hasQuart = false;
 	gr.query();
 	while(gr.next()){
-		gs.addInfoMessage( gr.u_recipient.getDisplayValue() +" has previously received a <font color= '#65a846'>Quarterly Recognition Award</font> of " + gr.awarded_quarterly_recognition_award +".");
+		gs.addInfoMessage( gr.u_recipient.getDisplayValue() +" has previously received a <font color= '#65a846'>Quarterly Recognition Award</font> of " + gr.awarded_quarterly_recognition_award +" on " + gr.quarterly_award_date +".");
 		hasQuart = true;
 	}
 		
@@ -52,10 +53,11 @@
 	// will say that user has never received an award if they received one from that record.
 	//gr.addQuery('sys_id', '!=', current.sys_id);
 	gr2.addQuery('received_recognition_award', true);
+	gr2.addQuery('active', true);
 	var hasAward = false;
 	gr2.query();
 	while(gr2.next()){
-		gs.addInfoMessage(gr2.u_recipient.getDisplayValue() +" has previously received a <font color= '#65a846'>Recognition Award</font> of " + gr2.recognition_award + ".");
+		gs.addInfoMessage(gr2.u_recipient.getDisplayValue() +" has previously received a <font color= '#65a846'>Recognition Award</font> of " + gr2.recognition_award + " on " + gr2.award_date + ".");
 		hasAward = true;
 	}
 	if(!hasQuart && !hasAward)
@@ -73,7 +75,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>59190a50dbbb8708f0727aa9bf9619e0</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Has Received Award</sys_name>
         <sys_overrides/>
         <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
@@ -82,7 +84,7 @@
         <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
         <sys_update_name>sys_script_59190a50dbbb8708f0727aa9bf9619e0</sys_update_name>
         <sys_updated_by>t448202</sys_updated_by>
-        <sys_updated_on>2018-01-29 20:53:15</sys_updated_on>
+        <sys_updated_on>2018-02-19 21:22:56</sys_updated_on>
         <template/>
         <when>before_display</when>
     </sys_script>

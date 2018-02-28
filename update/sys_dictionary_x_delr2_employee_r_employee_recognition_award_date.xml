@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="recognition_award" table="x_delr2_employee_r_employee_recognition">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="award_date" table="x_delr2_employee_r_employee_recognition">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Recognition Award(s)</column_label>
+        <column_label>Award Date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,16 +28,16 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>recognition_award</element>
+        <element>award_date</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="">glide_date</internal_type>
         <mandatory>false</mandatory>
-        <max_length>160</max_length>
+        <max_length>40</max_length>
         <name>x_delr2_employee_r_employee_recognition</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -51,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>t448202</sys_created_by>
-        <sys_created_on>2018-01-15 21:24:11</sys_created_on>
+        <sys_created_on>2018-02-19 21:01:51</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>c80319e1db4c13001ecc71dabf9619c2</sys_id>
+        <sys_id>c0ef3047db949f08f0727aa9bf961941</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Recognition Award(s)</sys_name>
+        <sys_name>Award Date</sys_name>
         <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
-        <sys_update_name>sys_dictionary_x_delr2_employee_r_employee_recognition_recognition_award</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-02-02 20:18:35</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_delr2_employee_r_employee_recognition_award_date</sys_update_name>
+        <sys_updated_by>t448202</sys_updated_by>
+        <sys_updated_on>2018-02-19 21:01:51</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

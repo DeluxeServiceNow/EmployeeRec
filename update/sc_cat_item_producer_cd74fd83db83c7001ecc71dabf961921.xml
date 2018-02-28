@@ -19,7 +19,7 @@
         <image/>
         <list_price>0</list_price>
         <location/>
-        <meta>Employee, Employee Recognition, Recognition, Award, Recognize, Way to go, Congrats</meta>
+        <meta>Employee, Employee Recognition, Recognition, Award, Recognize, Way to go, Congrats, EREC</meta>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
@@ -53,7 +53,7 @@
         <sys_created_on>2017-12-19 21:32:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>cd74fd83db83c7001ecc71dabf961921</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Employee Recognition</sys_name>
         <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
         <sys_policy/>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
         <sys_update_name>sc_cat_item_producer_cd74fd83db83c7001ecc71dabf961921</sys_update_name>
         <sys_updated_by>t444366</sys_updated_by>
-        <sys_updated_on>2018-01-24 20:53:11</sys_updated_on>
+        <sys_updated_on>2018-02-19 18:18:42</sys_updated_on>
         <table_name>x_delr2_employee_r_employee_recognition</table_name>
         <template/>
         <type>item</type>

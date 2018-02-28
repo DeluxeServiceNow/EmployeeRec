@@ -48,7 +48,7 @@
         <sys_created_by>t444366</sys_created_by>
         <sys_created_on>2017-12-19 18:28:06</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>4c3ac587db03c7001ecc71dabf961904</sys_id>
+        <sys_id>c40319e1db4c13001ecc71dabf9619c6</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Innovate and Transform</sys_name>
         <sys_package display_value="Employee Recognition" source="x_delr2_employee_r">d303c587dbcf87001ecc71dabf9619cf</sys_package>
@@ -56,8 +56,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Employee Recognition">d303c587dbcf87001ecc71dabf9619cf</sys_scope>
         <sys_update_name>sys_dictionary_x_delr2_employee_r_employee_recognition_u_innovate_transform</sys_update_name>
-        <sys_updated_by>t444366</sys_updated_by>
-        <sys_updated_on>2017-12-19 18:28:06</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-02 20:18:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
